@@ -26,16 +26,13 @@ The PCB can be ordered with the top assembled from JLCPCB SMT service, but you w
 
 # BOM Files
 
-There are 3 BOMs to choose from. Choose the one that suits your needs.
+There are 2 BOMs to choose from. Choose the one that suits your needs.
 
 ### Basic BOM
 Includes the headers for the Micro, the reset button, the USB plug, and the decoupling caps. That's all you need for RTKBase. There will be lots of empty holes to solder additional headers or wires if you ever want to modify anything. This is the recommended version.
 
-### Deluxe BOM
-Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it.
-
 ### Complete BOM
-A BOM with every part on it. If you are hand soldering then you will find the through hole caps on this BOM.
+Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it. If you are hand soldering then you will find the through hole caps on this BOM.
 
 
 
@@ -43,7 +40,9 @@ A BOM with every part on it. If you are hand soldering then you will find the th
 
 You'll need the Gerber file, the Basic or Deluxe BOM file, and the CPL file. All the JLCPCB default options are ok. 1 oz fill is ok. Snaz it up and change the board colour if you like. Use the SMT assembly service for the Top Side and purchase/solder your own bottom 2x20 header.
 
-Note: It is possible to have JLCPCB solder the bottom header for you, but it is very expensive. In order to process the order you have to select "double sided assembly," and JLCPCB will charge you as if they have to flip the PCB in their pick-and-place machine. To have JLCPCB assemble the top parts only is ~$30 for 5 boards. To have JLCPCB assemble the top and bottom is ~$140 for 5 boards. If you can't solder at all and really want a board, I recommend posting on the [AgOpenGPS Sales Forum](https://discourse.agopengps.com/c/sales "discourse.agopengps.com/c/sales"). Most people only need 1 board and order 5, someone will hopefully have a spare to sell you.
+Note: It is possible to have JLCPCB solder the bottom header for you, but it is very expensive. In order to process the order you have to select "double sided assembly," and JLCPCB will charge you as if they have to flip the PCB in their pick-and-place machine. To have JLCPCB assemble the top parts only is ~$30 for 5 boards. To have JLCPCB assemble the top and bottom is ~$140 for 5 boards. Make sure to de-select the through-hole caps (C1, C2) if you order double-sided.
+
+If you can't solder at all and really want a board, I recommend posting on the [AgOpenGPS Sales Forum](https://discourse.agopengps.com/c/sales "discourse.agopengps.com/c/sales"). Most people only need 1 board and order 5, someone will hopefully have a spare to sell you.
 
 
 
