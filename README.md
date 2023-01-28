@@ -2,9 +2,23 @@
 
 Connect an ArduSimple simpleRTK2B Micro (F9P or F9R) to a Raspberry Pi (3 or 4) using this small adapter PCB.
 
-The PCB is intended for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS "github.com/farmerbriantee/AgOpenGPS") users that wish to use a [Micro F9P](https://www.ardusimple.com/product/simplertk2b-micro/m "Ardusimple") as an NTRIP base station. There are different ways to use the PCB; one beginner friendly way is to use [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") software in combination with [RTK2go](http://rtk2go.com/ "rtk2go.com").
+The PCB is intended for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS "github.com/farmerbriantee/AgOpenGPS") users that wish to use a [Micro F9P](https://www.ardusimple.com/product/simplertk2b-micro/ "Ardusimple") as an NTRIP base station. There are different ways to use the PCB; one beginner friendly way is to use [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") software in combination with [RTK2go](http://rtk2go.com/ "rtk2go.com").
 
 The PCB can be ordered with the top assembled from JLCPCB SMT service, but you will have to solder the bottom 2x20 header yourself.
+
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Basic%20BOM.png" width="500"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Complete%20BOM.png" width="500">
+
+
+
+# BOM Files
+
+There are 2 BOMs to choose from. Choose the one that suits your needs.
+
+### Basic BOM
+Includes the headers for the Micro, the reset button, the USB plug, and the decoupling caps. That's all you need for RTKBase. There will be lots of empty holes to solder additional headers or wires if you ever want to modify anything. This is the recommended version.
+
+### Complete BOM
+Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it. If you are hand soldering then you will find the through hole caps on this BOM.
 
 
 
@@ -21,18 +35,6 @@ The PCB can be ordered with the top assembled from JLCPCB SMT service, but you w
 9. 5v and 3.3v power headers are broken out, intended for ease of modification.
 10. The antenna connection is centered in the board where your fingers have the greatest chance of being able to make the SMA connection.
 11. The antenna exits the board on the side of the USB connectors. This works nicely with many Raspberry Pi cases. Unfortunately it was not possible to design the board so that the antenna exits above the USB power connection, there just isn't enough room to fit inside a case that way.
-
-
-
-# BOM Files
-
-There are 2 BOMs to choose from. Choose the one that suits your needs.
-
-### Basic BOM
-Includes the headers for the Micro, the reset button, the USB plug, and the decoupling caps. That's all you need for RTKBase. There will be lots of empty holes to solder additional headers or wires if you ever want to modify anything. This is the recommended version.
-
-### Complete BOM
-Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it. If you are hand soldering then you will find the through hole caps on this BOM.
 
 
 
