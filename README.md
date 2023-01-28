@@ -38,7 +38,7 @@ Has headers in every hole. You probably won't use most of them and it's just an 
 
 # Ordering using JLCPCB's SMT Service
 
-You'll need the Gerber file, the Basic or Deluxe BOM file, and the CPL file. All the JLCPCB default options are ok. 1 oz fill is ok. Snaz it up and change the board colour if you like. Use the SMT assembly service for the Top Side and purchase/solder your own bottom 2x20 header.
+You'll need the Gerber file, the Basic or Complete BOM file, and the Pick and Place (CPL) file. All the JLCPCB default options are ok. 1 oz fill is ok. Snaz it up and change the board colour if you like. Use the SMT assembly service for the Top Side and purchase/solder your own bottom 2x20 header.
 
 Note: It is possible to have JLCPCB solder the bottom header for you, but it is very expensive. In order to process the order you have to select "double sided assembly," and JLCPCB will charge you as if they have to flip the PCB in their pick-and-place machine. To have JLCPCB assemble only the top parts is ~$30 for 5 boards. To have JLCPCB assemble the top and bottom is ~$140 for 5 boards. Make sure to de-select the through-hole caps (C1, C2) if you order double-sided.
 
