@@ -14,10 +14,10 @@ The PCB can be ordered with the top assembled from JLCPCB SMT service, but you w
 
 There are 2 BOMs to choose from. Choose the one that suits your needs.
 
-### Basic BOM
+### BOM Basic
 Includes the headers for the Micro, the reset button, the USB plug, and the decoupling caps. That's all you need for RTKBase. There will be lots of empty holes to solder additional headers or wires if you ever want to modify anything. This is the recommended version.
 
-### Complete BOM
+### BOM Complete
 Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it. If you are hand soldering then you will find the through hole caps on this BOM.
 
 
