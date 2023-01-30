@@ -2,7 +2,7 @@
 
 Connect an ArduSimple simpleRTK2B Micro (F9P or F9R) to a Raspberry Pi (3 or 4) using this small adapter PCB.
 
-The PCB is intended for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS "github.com/farmerbriantee/AgOpenGPS") users that wish to use a [Micro F9P](https://www.ardusimple.com/product/simplertk2b-micro/ "Ardusimple") as an NTRIP base station. There are different ways to use the PCB; one beginner friendly way is to use [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") software in combination with [RTK2go](http://rtk2go.com/ "rtk2go.com").
+The PCB is intended for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS "github.com/farmerbriantee/AgOpenGPS") users that wish to use a [Micro F9P](https://www.ardusimple.com/product/simplertk2b-micro/ "Ardusimple") with a RaspBerry Pi as an NTRIP base station. There are different ways to use the PCB; one beginner friendly way is to use [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") software in combination with [RTK2go](http://rtk2go.com/ "rtk2go.com").
 
 The PCB can be ordered with the top assembled from JLCPCB SMT service, but you will have to solder the bottom 2x20 header yourself.
 
