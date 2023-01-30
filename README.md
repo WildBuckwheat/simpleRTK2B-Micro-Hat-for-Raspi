@@ -28,13 +28,14 @@ Has headers in every hole. You probably won't use most of them and it's just an 
 2. The Micro's serial 1 connection is connected to the Pi's UART.
 3. A USB mini B port allows for USB connection to a PC running U-Center, etc.
 4. A reset buttons allows for reset of the Micro without needing to cycle power to the Pi.
-5. The Micro's serial 2 connection is broken out to 4 pin headers. Intended for use with an external radio.
-6. All of the Micro's pins are broken out to headers. Intended for easy of modification (you could experiment with the I2C connection).
-7. All of the Pi's GPIO are broken out to a header. Intended for ease of modification (you could add an I2C SSD1306 OLED screen).
-8. PoE headers for a Pi 4 are included, intended for ease of modification (you could add a voltage regulator between PoE pins and 5v pins).
-9. 5v and 3.3v power headers are broken out, intended for ease of modification.
-10. The antenna connection is centered in the board where your fingers have the greatest chance of being able to make the SMA connection.
-11. The antenna exits the board on the side of the USB connectors. This works nicely with many Raspberry Pi cases. Unfortunately it was not possible to design the board so that the antenna exits above the USB power connection, there just isn't enough room to fit inside a case that way.
+5. SMD 3.3v Power LED
+6. The Micro's serial 2 connection is broken out to 4 pin headers. Intended for use with an external radio.
+7. All of the Micro's pins are broken out to headers. Intended for easy of modification (you could experiment with the I2C connection).
+8. All of the Pi's GPIO are broken out to a header. Intended for ease of modification (you could add an I2C SSD1306 OLED screen).
+9. PoE headers for a Pi 4 are included, intended for ease of modification (you could add a voltage regulator between PoE pins and 5v pins).
+10. 5v and 3.3v power headers are broken out, intended for ease of modification.
+11. The antenna connection is centered in the board where your fingers have the greatest chance of being able to make the SMA connection.
+12. The antenna exits the board on the side of the USB connectors. This works nicely with many Raspberry Pi cases. Unfortunately it was not possible to design the board so that the antenna exits above the USB power connection, there just isn't enough room to fit inside a case that way.
 
 
 
