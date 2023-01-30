@@ -60,4 +60,4 @@ Its just a standard 0.1" 2x20 female header
 
 
 # For the Tinkerers
-The EasyEDA files are provided. All of the unused pads are called out with headers if you want to order the PCB that way. The design is licensed under CERN-OHL-S-2.0, any improvements or modifications should be made available under the same licence. If you have any suggestions please create a ticket on GitHub.
+The EasyEDA files are provided. All of the unused pads are called out with headers if you want to order the PCB that way. The design is licensed under CERN-OHL-S-2.0, any improvements or modifications should be made available under the same licence. If you see any issues or have any suggestions please create a ticket on GitHub.
