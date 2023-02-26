@@ -8,7 +8,7 @@ The PCB can be ordered with the top assembled from JLCPCB SMT service, but you w
 
 In these pictures I have used some of the optional pads with a small voltage regulator for passive power over ethernet. You don't need to add the voltage regulator, you can power the Pi from USB like normal.
 
-<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled.JPG" height="400"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled2.JPG" height="400"> 
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled.JPG" height="350"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled2.JPG" height="350"> 
 
 
 
