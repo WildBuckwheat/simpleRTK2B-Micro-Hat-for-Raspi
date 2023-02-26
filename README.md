@@ -8,6 +8,9 @@ The PCB can be ordered with the top assembled from JLCPCB SMT service, but you w
 
 <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Basic%20BOM.png" width="400"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Complete%20BOM.png" width="400">
 
+In this picture I have used some of the optional pads with a small voltage regulator for passive power over ethernet. You don't need to add the voltage regulator, you can power the Pi from USB like normal.
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled.jpg" width="820"> 
+
 
 
 # BOM Files
