@@ -4,12 +4,11 @@ Connect an ArduSimple simpleRTK2B Micro (F9P or F9R) to a Raspberry Pi (3 or 4) 
 
 The PCB is intended for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS "github.com/farmerbriantee/AgOpenGPS") users that wish to use a [Micro F9P](https://www.ardusimple.com/product/simplertk2b-micro/ "Ardusimple") with a RaspBerry Pi as an NTRIP base station. There are different ways to use the PCB; one beginner friendly way is to use [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") software in combination with [RTK2go](http://rtk2go.com/ "rtk2go.com").
 
-The PCB can be ordered with the top assembled from JLCPCB SMT service, but you will have to solder the bottom 2x20 header yourself.
+The PCB can be ordered with the top assembled from JLCPCB SMT service, but you will have to source and solder the bottom 2x20 female header that mates with the Pi yourself.
 
-<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Basic%20BOM.png" width="400"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Complete%20BOM.png" width="400">
+In these pictures I have used some of the optional pads with a small voltage regulator for passive power over ethernet. You don't need to add the voltage regulator, you can power the Pi from USB like normal.
 
-In this picture I have used some of the optional pads with a small voltage regulator for passive power over ethernet. You don't need to add the voltage regulator, you can power the Pi from USB like normal.
-<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled.jpg" width="820"> 
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled.JPG" height="400"> <img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Assembled2.JPG" height="400"> 
 
 
 
@@ -20,8 +19,12 @@ There are 2 BOMs to choose from. Choose the one that suits your needs.
 ### BOM Basic
 Includes the headers for the Micro, the reset button, the USB plug, and the decoupling caps. That's all you need for RTKBase. There will be lots of empty holes to solder additional headers or wires if you ever want to modify anything. This is the recommended version.
 
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Basic%20BOM.png" width="300">
+
 ### BOM Complete
 Has headers in every hole. You probably won't use most of them and it's just an added expense if ordering using JLCPCB's SMT service. Its there if you want it. If you are hand soldering then you will find the through hole caps on this BOM.
+
+<img src="https://github.com/WildBuckwheat/simpleRTK2B-Micro-Hat-for-Raspi/blob/main/Images/Render%203D%20Complete%20BOM.png" width="300">
 
 
 
