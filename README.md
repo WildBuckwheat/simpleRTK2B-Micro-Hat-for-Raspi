@@ -71,6 +71,7 @@ Don't know what I'm talking about? No problem. Follow the intructions below.
 ```echo "dtoverlay=disable-bt" | sudo tee -a /boot/config.txt```
 
 ```sudo reboot```
+
 6. Login to the RTKBase web page, the "detect and configure" features should now work.
 
 
@@ -88,6 +89,7 @@ or
 ```sudo socat tcp-listen:128,reuseaddr /dev/Serial0,b115200,raw,echo=0```
 
 In U-center create a new network connection. The format is tcp://host:port
+
 ```tcp://baseGNSS.local:128```
 
 
