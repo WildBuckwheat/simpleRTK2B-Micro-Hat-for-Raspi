@@ -65,8 +65,11 @@ Don't know what I'm talking about? No problem. Follow the intructions below.
 3. Create an SSH connection to the Pi. In the Host Name field, enter basegnss.local (or the IP address). Click Open.
 4. Login using the Pi's credentials.
 5. Run the following commands, one at a time.
+
 ```echo "enable_uart=1" | sudo tee -a /boot/config.txt```
+
 ```echo "dtoverlay=disable-bt" | sudo tee -a /boot/config.txt```
+
 ```sudo reboot```
 6. Login to the RTKBase web page, the "detect and configure" features should now work.
 
@@ -77,8 +80,11 @@ Don't know what I'm talking about? No problem. Follow the intructions below.
 Socat is a flexible, multi-purpose relay tool in Linux. Its purpose is to establish a relationship between two data sources. Basically, the Pi can act as a network to serial adapter. You can use this to connect to the F9P using U-Center from anywhere on the network.
 
 First SSH to the Pi and enable socat. Either of these commands should work.
+
 ```sudo socat tcp-listen:128,reuseaddr /dev/ttyAMA0,b115200,raw,echo=0```
+
 or
+
 ```sudo socat tcp-listen:128,reuseaddr /dev/Serial0,b115200,raw,echo=0```
 
 In U-center create a new network connection. The format is tcp://host:port
