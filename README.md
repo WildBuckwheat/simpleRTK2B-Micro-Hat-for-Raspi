@@ -55,6 +55,37 @@ If you can't solder at all and really want a board, I recommend posting on the [
 
 
 
+# Pi Settings
+
+The Pi will need to have UART enabled, which can be done with raspi-config or by editing the config.txt. By default the GPIO is connected to the mini-UART at ttyS0. RTKBase does not seem to play nicely with the mini-UART. Use the PL011 full UART with the GPIO at ttyAMA0 instead by disabling bluetooth or by dtoverlaying the mini-UART over bluetooth.
+
+Don't know what I'm talking about? No problem. Follow the intructions below.
+1. Follow the intructions at [RTKBase](https://github.com/Stefal/rtkbase "github.com/Stefal/rtkbase") to install an operating system and RTKBase onto the pi.
+2. Download [PuTTY](https://www.putty.org/ "www.putty.org/") to your computer, a free tool for creating SSH connections.
+3. Create an SSH connection to the Pi. In the Host Name field, enter basegnss.local (or the IP address). Click Open.
+4. Login using the Pi's credentials.
+5. Run the following commands, one at a time.
+```echo "enable_uart=1" | sudo tee -a /boot/config.txt```
+```echo "dtoverlay=disable-bt" | sudo tee -a /boot/config.txt```
+```sudo reboot```
+6. Login to the RTKBase web page, the "detect and configure" features should now work.
+
+
+
+# Socat
+
+Socat is a flexible, multi-purpose relay tool in Linux. Its purpose is to establish a relationship between two data sources. Basically, the Pi can act as a network to serial adapter. You can use this to connect to the F9P using U-Center from anywhere on the network.
+
+First SSH to the Pi and enable socat. Either of these commands should work.
+```sudo socat tcp-listen:128,reuseaddr /dev/ttyAMA0,b115200,raw,echo=0```
+or
+```sudo socat tcp-listen:128,reuseaddr /dev/Serial0,b115200,raw,echo=0```
+
+In U-center create a new network connection. The format is tcp://host:port
+```tcp://baseGNSS.local:128```
+
+
+
 # Part numbers for 2x20 header
 
 Its just a standard 0.1" 2x20 female header
