@@ -55,6 +55,16 @@ If you can't solder at all and really want a board, I recommend posting on the [
 
 
 
+# Part numbers for 2x20 header
+
+Its just a standard 0.1" 2x20 female header
+- LCSC C2977589
+- Digikey S9200-ND
+- Mouser 710-61304021821
+- Cut to length whatever ebay/AliExpress headers you have
+
+
+
 # Pi Settings
 
 The Pi will need to have UART enabled, which can be done with raspi-config or by editing the config.txt. By default the GPIO is connected to the mini-UART at ttyS0. RTKBase does not seem to play nicely with the mini-UART. Use the PL011 full UART with the GPIO at ttyAMA0 instead by disabling bluetooth or by dtoverlaying the mini-UART over bluetooth.
@@ -91,16 +101,6 @@ or
 In U-center create a new network connection. The format is tcp://host:port
 
 ```tcp://baseGNSS.local:128```
-
-
-
-# Part numbers for 2x20 header
-
-Its just a standard 0.1" 2x20 female header
-- LCSC C2977589
-- Digikey S9200-ND
-- Mouser 710-61304021821
-- Cut to length whatever ebay/AliExpress headers you have
 
 
 
